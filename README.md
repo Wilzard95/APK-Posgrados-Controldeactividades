@@ -62,12 +62,15 @@ campo de texto libre que busca coincidencias en *programa* u
 El botón **Limpiar filtros** restablece todo a `(Todos)`.
 
 ## Deploy
-Puede desplegarse en servicios como Netlify o GitHub Pages. En ambos casos,
-defina las variables del `.env` en el panel del servicio y ejecute el script
-de construcción.
+La aplicación se publica automáticamente en GitHub Pages después de cada push a
+`main`. Puede consultarse en:
 
-El workflow en `.github/workflows/deploy.yml` está deshabilitado por defecto;
-puede habilitarlo eliminando la condición `if: false`.
+<https://Wilzard95.github.io/APK-Posgrados-Controldeactividades/>
+
+Para volver a desplegar manualmente solo ejecute un push a la rama `main` o
+dispare el workflow **Deploy** desde la pestaña *Actions*. El workflow instala
+las dependencias, ejecuta `npm run build` y actualiza la rama `gh-pages` con el
+contenido de `dist/`.
 
 ## Troubleshooting
 - **No aparece la información**: verifique que el link de Excel esté correcto y
