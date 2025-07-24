@@ -1,5 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
-import { loadProcesos, saveProcesos, Proceso } from '../lib/db';
+import { useCallback, useEffect, useState } from "react";
+import { loadProcesos, saveProcesos } from "../lib/db";
+import type { Proceso } from "../types";
 
 export function useProcesos() {
   const [data, setData] = useState<Proceso[]>([]);
@@ -13,7 +14,10 @@ export function useProcesos() {
     setError(null);
     setOffline(false);
     try {
-      const url = (import.meta.env.VITE_DATA_URL || '/procesos.json') + '?t=' + Date.now();
+      const url =
+        (import.meta.env.VITE_DATA_URL || "/procesos.json") +
+        "?t=" +
+        Date.now();
       const res = await fetch(url);
       if (!res.ok) throw new Error(res.statusText);
       const json: Proceso[] = await res.json();

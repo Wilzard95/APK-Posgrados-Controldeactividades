@@ -50,6 +50,17 @@ error de red, se cargan esos datos cacheados y se indica "offline" en la
 parte inferior de la pantalla junto con la fecha de la última
 sincronización.
 
+### Filtros y búsqueda
+La barra de filtros permite filtrar por **Responsable**, **Estado** y un
+campo de texto libre que busca coincidencias en *programa* u
+*observaciones*. Puede combinarse de la siguiente forma:
+
+- Seleccionar solo un Estado muestra todos los responsables con ese
+  estado.
+- Seleccionar solo un Responsable filtra por esa persona.
+- Al escribir texto se filtra adicionalmente por coincidencia.
+El botón **Limpiar filtros** restablece todo a `(Todos)`.
+
 ## Deploy
 Puede desplegarse en servicios como Netlify o GitHub Pages. En ambos casos,
 defina las variables del `.env` en el panel del servicio y ejecute el script
