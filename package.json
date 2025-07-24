@@ -6,7 +6,21 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
+    "convert:xlsx": "node scripts/convert-xlsx.js \"data/Seguimiento_Procesos en curso.xlsx\""
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.6"
+  }
 }
