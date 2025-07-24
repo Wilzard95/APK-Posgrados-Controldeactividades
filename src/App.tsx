@@ -4,6 +4,7 @@ import { LastSyncBanner } from "./components/LastSyncBanner";
 import { Filters } from "./components/Filters";
 import { ProcessList } from "./components/ProcessList";
 import { ProcessModal } from "./components/ProcessModal";
+import { exportProcesosToXLSX } from "./lib/export";
 import type { Proceso } from "./types";
 
 export default function App() {
@@ -63,7 +64,15 @@ export default function App() {
         onClearFilters={clearFilters}
       />
 
-      <p>Total registros: {filtered.length}</p>
+      <p>
+        Total registros: {filtered.length}{" "}
+        <button
+          type="button"
+          onClick={() => exportProcesosToXLSX(filtered, "procesos_filtrados.xlsx")}
+        >
+          Exportar filtrado a Excel
+        </button>
+      </p>
 
       <ProcessList procesos={filtered} onSelect={setSelected} />
       <ProcessModal proceso={selected} onClose={() => setSelected(null)} />
