@@ -63,14 +63,16 @@ El botón **Limpiar filtros** restablece todo a `(Todos)`.
 
 ## Deploy
 La aplicación se publica automáticamente en GitHub Pages después de cada push a
-`main`. Puede consultarse en:
+`main` mediante el workflow **Deploy** que usa
+[`actions/deploy-pages`](https://github.com/actions/deploy-pages). El sitio está
+disponible en:
 
 <https://Wilzard95.github.io/APK-Posgrados-Controldeactividades/>
 
-Para volver a desplegar manualmente solo ejecute un push a la rama `main` o
-dispare el workflow **Deploy** desde la pestaña *Actions*. El workflow instala
-las dependencias, ejecuta `npm run build` y actualiza la rama `gh-pages` con el
-contenido de `dist/`.
+Para volver a desplegar manualmente, ejecute un push a `main` o dispare el
+workflow **Deploy** desde la pestaña *Actions*. Este workflow instala las
+dependencias, ejecuta `npm run build` y publica la carpeta `dist/` en GitHub
+Pages.
 
 ## Actualizar `procesos.json`
 El archivo JSON que usa la aplicación puede regenerarse desde el Excel mediante
