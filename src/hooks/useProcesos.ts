@@ -15,7 +15,10 @@ export function useProcesos() {
     setOffline(false);
     try {
       const url =
-        (import.meta.env.VITE_DATA_URL || "/procesos.json") +
+        (
+          import.meta.env.VITE_DATA_URL ||
+          new URL("procesos.json", import.meta.env.BASE_URL).toString()
+        ) +
         "?t=" +
         Date.now();
       const res = await fetch(url);
