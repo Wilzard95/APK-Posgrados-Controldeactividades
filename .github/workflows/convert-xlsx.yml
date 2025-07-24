@@ -1,0 +1,38 @@
+name: Convert XLSX
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DOWNLOAD_URL: ${{ secrets.DOWNLOAD_URL }}
+      XLSX_BASE64: ${{ secrets.XLSX_BASE64 }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+      - run: npm ci
+      - name: Obtain XLSX
+        run: |
+          mkdir -p data
+          if [ -n "$XLSX_BASE64" ]; then
+            echo "$XLSX_BASE64" | base64 -d > data/source.xlsx
+          elif [ -n "$DOWNLOAD_URL" ]; then
+            curl -L "$DOWNLOAD_URL" -o data/source.xlsx
+          else
+            echo "XLSX source not provided" && exit 1
+          fi
+      - run: node scripts/convert-xlsx.js "data/source.xlsx"
+      - name: Commit changes
+        run: |
+          git diff --quiet public/procesos.json && exit 0
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@users.noreply.github.com'
+          git add public/procesos.json
+          git commit -m 'Update procesos.json'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

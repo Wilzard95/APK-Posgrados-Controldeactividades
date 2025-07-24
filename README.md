@@ -72,6 +72,16 @@ dispare el workflow **Deploy** desde la pestaña *Actions*. El workflow instala
 las dependencias, ejecuta `npm run build` y actualiza la rama `gh-pages` con el
 contenido de `dist/`.
 
+## Actualizar `procesos.json`
+El archivo JSON que usa la aplicación puede regenerarse desde el Excel mediante
+el workflow **Convert XLSX**.
+
+1. Cree un secret llamado `XLSX_BASE64` con el contenido del XLSX codificado en
+   base&nbsp;64, o bien un secret `DOWNLOAD_URL` con un enlace de descarga
+   privado.
+2. Desde la pestaña *Actions* ejecute manualmente el workflow **Convert XLSX**.
+3. Si `public/procesos.json` cambia, el workflow hará commit automático.
+
 ## Troubleshooting
 - **No aparece la información**: verifique que el link de Excel esté correcto y
   que su usuario tenga permisos.
