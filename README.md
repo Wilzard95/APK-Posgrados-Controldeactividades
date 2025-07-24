@@ -44,8 +44,11 @@ npm install
    `VITE_EXCEL_SHARE_LINK`.
 
 ### Modo offline
-Si no hay conexión a Internet, la aplicación puede mostrar los datos
-almacenados en caché localmente (última sincronización exitosa).
+La aplicación guarda la última lista de procesos en IndexedDB cada vez
+que se pulsa **Refrescar**. Si al intentar obtener el JSON ocurre un
+error de red, se cargan esos datos cacheados y se indica "offline" en la
+parte inferior de la pantalla junto con la fecha de la última
+sincronización.
 
 ## Deploy
 Puede desplegarse en servicios como Netlify o GitHub Pages. En ambos casos,

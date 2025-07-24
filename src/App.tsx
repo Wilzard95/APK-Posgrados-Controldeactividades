@@ -1,41 +1,9 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-
-type Proceso = {
-  programa: string;
-  facultad: string;
-  rrc_raa: string;
-  procedimiento: string;
-  modalidad: string;
-  responsable: string;
-  estado: string;
-  observaciones: string;
-};
+import { useProcesos } from './hooks/useProcesos';
+import { LastSyncBanner } from './components/LastSyncBanner';
 
 export default function App() {
-  const [data, setData] = useState<Proceso[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const refresh = async () => {
-    setLoading(true);
-    setError(null);
-    try {
-      const url = (import.meta.env.VITE_DATA_URL || '/procesos.json') + '?t=' + Date.now();
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(res.statusText);
-      const json: Proceso[] = await res.json();
-      setData(json);
-    } catch (e: any) {
-      setError(e.message);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    refresh();
-  }, []);
+  const { data, loading, error, lastSync, offline, refresh } = useProcesos();
 
   return (
     <div style={{ padding: 16, fontFamily: 'sans-serif' }}>
@@ -55,6 +23,7 @@ export default function App() {
           </li>
         ))}
       </ul>
+      <LastSyncBanner lastSync={lastSync} offline={offline} />
     </div>
   );
 }
