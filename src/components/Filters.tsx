@@ -36,65 +36,107 @@ export function Filters({
   onClearFilters,
 }: Props) {
   return (
-    <div
-      style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}
-    >
-      <select
-        value={selectedResponsable}
-        onChange={(e) => onResponsableChange(e.target.value)}
+    <div style={{ marginBottom: 12 }}>
+      <div
+        style={{ 
+          display: "grid", 
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", 
+          gap: 16, 
+          marginBottom: 12 
+        }}
       >
-        <option value="">(Todos)</option>
-        {responsables.map((r) => (
-          <option key={r} value={r}>
-            {r}
-          </option>
-        ))}
-      </select>
+        {/* Facultad */}
+        <div>
+          <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
+            Facultad
+          </label>
+          <select
+            value={selectedFacultad}
+            onChange={(e) => onFacultadChange(e.target.value)}
+            style={{ width: "100%" }}
+          >
+            <option value="">(Todas las facultades)</option>
+            {facultades.map((f) => (
+              <option key={f} value={f}>
+                {f}
+              </option>
+            ))}
+          </select>
+        </div>
 
-      <select
-        value={selectedEstado}
-        onChange={(e) => onEstadoChange(e.target.value)}
-      >
-        <option value="">(Todos)</option>
-        {estados.map((s) => (
-          <option key={s} value={s}>
-            {s}
-          </option>
-        ))}
-      </select>
+        {/* Procedimiento */}
+        <div>
+          <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
+            Procedimiento
+          </label>
+          <select
+            value={selectedProcedimiento}
+            onChange={(e) => onProcedimientoChange(e.target.value)}
+            style={{ width: "100%" }}
+          >
+            <option value="">(Todos los procedimientos)</option>
+            {procedimientos.map((p) => (
+              <option key={p} value={p}>
+                {p}
+              </option>
+            ))}
+          </select>
+        </div>
 
-      <select
-        value={selectedFacultad}
-        onChange={(e) => onFacultadChange(e.target.value)}
-      >
-        <option value="">(Todas las facultades)</option>
-        {facultades.map((f) => (
-          <option key={f} value={f}>
-            {f}
-          </option>
-        ))}
-      </select>
+        {/* Responsable */}
+        <div>
+          <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
+            Responsable
+          </label>
+          <select
+            value={selectedResponsable}
+            onChange={(e) => onResponsableChange(e.target.value)}
+            style={{ width: "100%" }}
+          >
+            <option value="">(Todos)</option>
+            {responsables.map((r) => (
+              <option key={r} value={r}>
+                {r}
+              </option>
+            ))}
+          </select>
+        </div>
 
-      <select
-        value={selectedProcedimiento}
-        onChange={(e) => onProcedimientoChange(e.target.value)}
-      >
-        <option value="">(Todos los procedimientos)</option>
-        {procedimientos.map((p) => (
-          <option key={p} value={p}>
-            {p}
-          </option>
-        ))}
-      </select>
+        {/* Estado */}
+        <div>
+          <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
+            Estado
+          </label>
+          <select
+            value={selectedEstado}
+            onChange={(e) => onEstadoChange(e.target.value)}
+            style={{ width: "100%" }}
+          >
+            <option value="">(Todos)</option>
+            {estados.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+        </div>
 
-      <input
-        type="text"
-        placeholder="Buscar..."
-        value={searchText}
-        onChange={(e) => onSearchChange(e.target.value)}
-      />
+        {/* Búsqueda */}
+        <div>
+          <label style={{ display: "block", marginBottom: 4, fontWeight: "bold" }}>
+            Búsqueda
+          </label>
+          <input
+            type="text"
+            placeholder="Buscar en programa u observaciones..."
+            value={searchText}
+            onChange={(e) => onSearchChange(e.target.value)}
+            style={{ width: "100%" }}
+          />
+        </div>
+      </div>
 
-      <button type="button" onClick={onClearFilters}>
+      <button type="button" onClick={onClearFilters} style={{ marginTop: 8 }}>
         Limpiar filtros
       </button>
     </div>
