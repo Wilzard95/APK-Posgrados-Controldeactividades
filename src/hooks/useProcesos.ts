@@ -21,7 +21,12 @@ export function useProcesos() {
         ) +
         "?t=" +
         Date.now();
-      const res = await fetch(url);
+      const res = await fetch(url, {
+        cache: 'no-cache', // Forzar recarga sin cache
+        headers: {
+          'Cache-Control': 'no-cache'
+        }
+      });
       if (!res.ok) throw new Error(res.statusText);
       const json: Proceso[] = await res.json();
       const now = new Date();
@@ -30,6 +35,7 @@ export function useProcesos() {
       await saveProcesos(json, now);
     } catch (e: any) {
       setError(e.message);
+      console.error('Error loading data:', e);
       const cache = await loadProcesos();
       setData(cache.data);
       setLastSync(cache.lastSync);
