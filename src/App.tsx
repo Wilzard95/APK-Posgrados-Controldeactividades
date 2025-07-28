@@ -46,6 +46,23 @@ export default function App() {
     <div style={{ padding: 16, fontFamily: "sans-serif" }}>
       <h1>Seguimiento Procesos</h1>
 
+      {/* DEBUG INFO */}
+      <div style={{ 
+        background: '#f0f0f0', 
+        padding: '10px', 
+        marginBottom: '10px', 
+        border: '1px solid #ccc',
+        fontSize: '12px'
+      }}>
+        <strong>DEBUG INFO:</strong><br/>
+        Loading: {loading.toString()}<br/>
+        Error: {error || 'None'}<br/>
+        Data length: {data.length}<br/>
+        Offline: {offline.toString()}<br/>
+        Last sync: {lastSync ? lastSync.toLocaleString() : 'Never'}<br/>
+        <button onClick={() => console.log('Data:', data)}>Log Data to Console</button>
+      </div>
+
       <button onClick={refresh} disabled={loading} style={{ marginBottom: 12 }}>
         {loading ? "Actualizando…" : "Refrescar"}
       </button>

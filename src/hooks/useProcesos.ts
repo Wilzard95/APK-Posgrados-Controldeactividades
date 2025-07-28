@@ -14,13 +14,7 @@ export function useProcesos() {
     setError(null);
     setOffline(false);
     try {
-      const url =
-        (
-          import.meta.env.VITE_DATA_URL ||
-          new URL("procesos.json", import.meta.env.BASE_URL).toString()
-        ) +
-        "?t=" +
-        Date.now();
+      const url = "https://wilzard95.github.io/APK-Posgrados-Controldeactividades/procesos.json?t=" + Date.now();
       const res = await fetch(url, {
         cache: 'no-cache', // Forzar recarga sin cache
         headers: {
