@@ -11,6 +11,8 @@ export default function App() {
   const { data, loading, error, lastSync, offline, refresh } = useProcesos();
   const [responsable, setResponsable] = useState("");
   const [estado, setEstado] = useState("");
+  const [facultad, setFacultad] = useState("");
+  const [procedimiento, setProcedimiento] = useState("");
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<Proceso | null>(null);
 
@@ -22,23 +24,35 @@ export default function App() {
     () => Array.from(new Set(data.map((p) => p.estado))).sort(),
     [data],
   );
+  const facultades = useMemo(
+    () => Array.from(new Set(data.map((p) => p.facultad))).sort(),
+    [data],
+  );
+  const procedimientos = useMemo(
+    () => Array.from(new Set(data.map((p) => p.procedimiento))).sort(),
+    [data],
+  );
 
   const filtered = useMemo(() => {
     const text = search.toLowerCase();
     return data.filter((p) => {
       const matchResp = !responsable || p.responsable === responsable;
       const matchEstado = !estado || p.estado === estado;
+      const matchFacultad = !facultad || p.facultad === facultad;
+      const matchProcedimiento = !procedimiento || p.procedimiento === procedimiento;
       const matchText =
         !text ||
         p.programa.toLowerCase().includes(text) ||
         p.observaciones.toLowerCase().includes(text);
-      return matchResp && matchEstado && matchText;
+      return matchResp && matchEstado && matchFacultad && matchProcedimiento && matchText;
     });
-  }, [data, responsable, estado, search]);
+  }, [data, responsable, estado, facultad, procedimiento, search]);
 
   const clearFilters = () => {
     setResponsable("");
     setEstado("");
+    setFacultad("");
+    setProcedimiento("");
     setSearch("");
   };
 
@@ -72,11 +86,17 @@ export default function App() {
       <Filters
         responsables={responsables}
         estados={estados}
+        facultades={facultades}
+        procedimientos={procedimientos}
         selectedResponsable={responsable}
         selectedEstado={estado}
+        selectedFacultad={facultad}
+        selectedProcedimiento={procedimiento}
         searchText={search}
         onResponsableChange={setResponsable}
         onEstadoChange={setEstado}
+        onFacultadChange={setFacultad}
+        onProcedimientoChange={setProcedimiento}
         onSearchChange={setSearch}
         onClearFilters={clearFilters}
       />

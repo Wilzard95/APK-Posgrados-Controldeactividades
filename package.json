@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
-    "convert:xlsx": "node scripts/convert-xlsx.js \"data/Seguimiento_Procesos en curso.xlsx\""
+    "convert:xlsx": "node scripts/convert-xlsx.js \"data/Seguimiento_Procesos en curso.xlsx\"",
+    "update": "npm run convert:xlsx && npm run build && git add . && git commit -m \"Actualizar datos de procesos\" && git push"
   },
   "license": "MIT",
   "dependencies": {

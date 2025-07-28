@@ -3,11 +3,17 @@ import React from "react";
 interface Props {
   responsables: string[];
   estados: string[];
+  facultades: string[];
+  procedimientos: string[];
   selectedResponsable: string;
   selectedEstado: string;
+  selectedFacultad: string;
+  selectedProcedimiento: string;
   searchText: string;
   onResponsableChange: (value: string) => void;
   onEstadoChange: (value: string) => void;
+  onFacultadChange: (value: string) => void;
+  onProcedimientoChange: (value: string) => void;
   onSearchChange: (value: string) => void;
   onClearFilters: () => void;
 }
@@ -15,11 +21,17 @@ interface Props {
 export function Filters({
   responsables,
   estados,
+  facultades,
+  procedimientos,
   selectedResponsable,
   selectedEstado,
+  selectedFacultad,
+  selectedProcedimiento,
   searchText,
   onResponsableChange,
   onEstadoChange,
+  onFacultadChange,
+  onProcedimientoChange,
   onSearchChange,
   onClearFilters,
 }: Props) {
@@ -47,6 +59,30 @@ export function Filters({
         {estados.map((s) => (
           <option key={s} value={s}>
             {s}
+          </option>
+        ))}
+      </select>
+
+      <select
+        value={selectedFacultad}
+        onChange={(e) => onFacultadChange(e.target.value)}
+      >
+        <option value="">(Todas las facultades)</option>
+        {facultades.map((f) => (
+          <option key={f} value={f}>
+            {f}
+          </option>
+        ))}
+      </select>
+
+      <select
+        value={selectedProcedimiento}
+        onChange={(e) => onProcedimientoChange(e.target.value)}
+      >
+        <option value="">(Todos los procedimientos)</option>
+        {procedimientos.map((p) => (
+          <option key={p} value={p}>
+            {p}
           </option>
         ))}
       </select>
