@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from "react";
 import { useProcesos } from "./hooks/useProcesos";
-import { LastSyncBanner } from "./components/LastSyncBanner";
 import { Filters } from "./components/Filters";
 import { ProcessList } from "./components/ProcessList";
 import { ProcessModal } from "./components/ProcessModal";
@@ -8,7 +7,7 @@ import { exportProcesosToXLSX } from "./lib/export";
 import type { Proceso } from "./types";
 
 export default function App() {
-  const { data, loading, error, lastSync, offline, refresh } = useProcesos();
+  const { data, loading, error, refresh } = useProcesos();
   const [responsable, setResponsable] = useState("");
   const [estado, setEstado] = useState("");
   const [facultad, setFacultad] = useState("");
@@ -39,12 +38,19 @@ export default function App() {
       const matchResp = !responsable || p.responsable === responsable;
       const matchEstado = !estado || p.estado === estado;
       const matchFacultad = !facultad || p.facultad === facultad;
-      const matchProcedimiento = !procedimiento || p.procedimiento === procedimiento;
+      const matchProcedimiento =
+        !procedimiento || p.procedimiento === procedimiento;
       const matchText =
         !text ||
         p.programa.toLowerCase().includes(text) ||
         p.observaciones.toLowerCase().includes(text);
-      return matchResp && matchEstado && matchFacultad && matchProcedimiento && matchText;
+      return (
+        matchResp &&
+        matchEstado &&
+        matchFacultad &&
+        matchProcedimiento &&
+        matchText
+      );
     });
   }, [data, responsable, estado, facultad, procedimiento, search]);
 
@@ -59,23 +65,6 @@ export default function App() {
   return (
     <div style={{ padding: 16, fontFamily: "sans-serif" }}>
       <h1>Seguimiento Procesos</h1>
-
-      {/* DEBUG INFO */}
-      <div style={{ 
-        background: '#f0f0f0', 
-        padding: '10px', 
-        marginBottom: '10px', 
-        border: '1px solid #ccc',
-        fontSize: '12px'
-      }}>
-        <strong>DEBUG INFO:</strong><br/>
-        Loading: {loading.toString()}<br/>
-        Error: {error || 'None'}<br/>
-        Data length: {data.length}<br/>
-        Offline: {offline.toString()}<br/>
-        Last sync: {lastSync ? lastSync.toLocaleString() : 'Never'}<br/>
-        <button onClick={() => console.log('Data:', data)}>Log Data to Console</button>
-      </div>
 
       <button onClick={refresh} disabled={loading} style={{ marginBottom: 12 }}>
         {loading ? "Actualizando…" : "Refrescar"}
@@ -105,7 +94,9 @@ export default function App() {
         Total registros: {filtered.length}{" "}
         <button
           type="button"
-          onClick={() => exportProcesosToXLSX(filtered, "procesos_filtrados.xlsx")}
+          onClick={() =>
+            exportProcesosToXLSX(filtered, "procesos_filtrados.xlsx")
+          }
         >
           Exportar filtrado a Excel
         </button>
@@ -113,7 +104,6 @@ export default function App() {
 
       <ProcessList procesos={filtered} onSelect={setSelected} />
       <ProcessModal proceso={selected} onClose={() => setSelected(null)} />
-      <LastSyncBanner lastSync={lastSync} offline={offline} />
     </div>
   );
 }
