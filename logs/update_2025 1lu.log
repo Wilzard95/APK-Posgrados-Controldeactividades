@@ -1,1 +1,36 @@
 ===== [lun 11/08/2025  9:51:00,42] Iniciando npm run update ===== 
+
+> apk-posgrados-controldeactividades@0.1.0 update
+> npm run pull:xlsx && npm run convert:xlsx && npm run build && git add . && git commit -m "Actualizar datos de procesos" && git push
+
+
+> apk-posgrados-controldeactividades@0.1.0 pull:xlsx
+> powershell -NoProfile -Command "Copy-Item -Force 'C:/OneDrive/OneDrive - uptc.edu.co/Archivos de Departamento de  Posgrados - BASE DE DATOS POSGRADOS/Seguimiento_Procesos en curso.xlsx' 'C:/Users/Nitro/APK-Posgrados-Controldeactividades/data/Seguimiento_Procesos en curso.xlsx'"
+
+
+> apk-posgrados-controldeactividades@0.1.0 convert:xlsx
+> node scripts/convert-xlsx.js "data/Seguimiento_Procesos en curso.xlsx"
+
+OK -> C:\Users\Nitro\APK-Posgrados-Controldeactividades\public\procesos.json (146 registros)
+
+> apk-posgrados-controldeactividades@0.1.0 build
+> vite build
+
+[36mvite v7.0.6 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 37 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdocs/[22m[32mindex.html                [39m[1m[2m  0.38 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
+[2mdocs/[22m[36massets/index-CxRYSb5n.js  [39m[1m[2m481.12 kB[22m[1m[22m[2m │ gzip: 157.89 kB[22m
+[32m✓ built in 2.16s[39m
+warning: in the working copy of 'docs/assets/index-CxRYSb5n.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/procesos.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/procesos.json', LF will be replaced by CRLF the next time Git touches it
+[main 6215b10] Actualizar datos de procesos
+ 1 file changed, 1 insertion(+)
+ create mode 100644 logs/update_2025 1lu.log
+To https://github.com/Wilzard95/APK-Posgrados-Controldeactividades.git
+   0a01d2d..6215b10  main -> main
+===== [lun 11/08/2025  9:51:05,51] Finalizado ===== 
+===== [lun 11/08/2025 10:29:26,55] Iniciando npm run update ===== 
