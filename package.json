@@ -9,7 +9,7 @@
   "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css}\"",
   "pull:xlsx": "powershell -NoProfile -Command \"Copy-Item -Force 'C:/OneDrive/OneDrive - uptc.edu.co/Archivos de Departamento de  Posgrados - BASE DE DATOS POSGRADOS/Seguimiento_Procesos en curso.xlsx' 'C:/Users/Nitro/APK-Posgrados-Controldeactividades/data/Seguimiento_Procesos en curso.xlsx'\"",
   "convert:xlsx": "node scripts/convert-xlsx.js \"data/Seguimiento_Procesos en curso.xlsx\"",
-  "update": "npm run pull:xlsx && npm run convert:xlsx && npm run build && git add . && git commit -m \"Actualizar datos de procesos\" && git push"
+  "update": "git fetch origin && git checkout main && git pull --rebase --autostash origin main && npm run pull:xlsx && npm run convert:xlsx && npm run build && git add -A && (git diff --cached --quiet || git commit -m \"Actualizar datos de procesos\") && (git push origin main || (git pull --rebase --autostash origin main && git push origin main))"
 },
   "license": "MIT",
   "dependencies": {
