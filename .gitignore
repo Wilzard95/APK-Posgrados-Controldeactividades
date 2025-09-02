@@ -8,3 +8,4 @@ pnpm-store/
 .env
 data/
 *.xlsx
+logs/

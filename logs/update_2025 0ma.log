@@ -1,7 +1,0 @@
-===== [mar 02/09/2025 12:44:59,78] Iniciando npm run update ===== 
-
-> apk-posgrados-controldeactividades@0.1.0 update
-> git fetch origin && git checkout main && git pull --rebase --autostash origin main && npm run pull:xlsx && npm run convert:xlsx && npm run build && git add -A && (git diff --cached --quiet || git commit -m "Actualizar datos de procesos") && (git push origin main || (git pull --rebase --autostash origin main && git push origin main))
-
-Your branch is up to date with 'origin/main'.
-Already on 'main'
