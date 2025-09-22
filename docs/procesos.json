@@ -1578,5 +1578,15 @@
     "responsable": "No asignado",
     "estado": "En fila",
     "observaciones": ""
+  },
+  {
+    "programa": "Especialización en Gerencia de Empresas de Salud",
+    "facultad": "FESAD",
+    "rrc_raa": "NA",
+    "procedimiento": "PAE",
+    "modalidad": "Virtual",
+    "responsable": "Eliana Pedreros",
+    "estado": "En fila",
+    "observaciones": ""
   }
 ]
