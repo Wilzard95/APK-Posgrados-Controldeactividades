@@ -26,7 +26,7 @@
     "procedimiento": "MODIFICACION",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Andrea Castellanos",
-    "estado": "Radicado CA o CS",
+    "estado": "Completado",
     "observaciones": "-Se realizó primera revisión del PAE.\r\nProfesional de Ingeniería menciona la intención del programa de modificar Acuerdo de Creación.\r\n-Se realizó revisión preliminar del PAE, no obstante, se pausa por procedimiento de modificación.\r\n-Se realizó reunión el lunes 17 de marzo para explicar procedimiento de modificación para los programas Esp en Estructuras y Geotecnia.\r\nSe pausó la revisión debido a que mencionaron modificación de acuerdo de creación.\r\n09/04/25: A la fecha no se ha recibido razón sobre si el programa se proyecta modificación o no.\r\n-El programa menciona que radica los documentos de modificación de Acuerdo de Creación para el lunes 05 de mayo de 2025.\r\n-05/05/25: Se reciben documentos para modificación del programa.\r\n-07/05/2025: Se solicita que envíen el PAE y sus anexos y que los documentos de modificación los envíen en formato editable.\r\n-08/05/2025: Programa envía documentos de modificación\r\n-27/05/2025: Se inicia la revisión de modificatoria. \r\n-05/06/2025: Se envió concepto de revisión de modificatoria. \r\n-03/07/2025: Se hace solicitud de conceptos ante Planeación, Jurídica y VAFI. \r\n-13/08/2025: Se radicó a Consejo Académico el proyecto de modificación. "
   },
   {
@@ -38,6 +38,16 @@
     "responsable": "Andrea Castellanos",
     "estado": "Radicado CA o CS",
     "observaciones": "-20/05/2025: El programa radica PAE actualizado a modificaciones proyectadas\r\n-24/07/2025: Se envía concepto de revisión documental. \r\n-12/08/2025: Se recibe la radicación del programa. Se ajustan competencias y RAE para radicar ante Consejo Académico la modificatoria. \r\n-28/08/2025: Se envía segundo concpeto de revisión del PAE. \r\n-15/09/2025: Se radicó el PAE ante Consejo Académico."
+  },
+  {
+    "programa": "Especialización en Estructuras",
+    "facultad": "Ingeniería",
+    "rrc_raa": "RRC-2025",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial a Presencial - Virtual",
+    "responsable": "Andrea Castellanos",
+    "estado": "En fila",
+    "observaciones": "26/09/2025: Programa radica las condiciones de calidad. "
   },
   {
     "programa": "Maestría en Gerencia de Proyectos de Construcción",
@@ -66,8 +76,8 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a RU [Presencial Y Virtual]",
     "responsable": "Andrea Castellanos",
-    "estado": "En revisión",
-    "observaciones": "-06/08/2025: El programa realiza radicación de las condiciones de calidad del programa "
+    "estado": "En ajustes por el programa",
+    "observaciones": "-06/08/2025: El programa realiza radicación de las condiciones de calidad del programa \r\n30/09/2025: Se envía primer concpeto de revisión documental"
   },
   {
     "programa": "Maestría en Ingeniería Civil (CNP)",
@@ -264,7 +274,7 @@
     "facultad": "Ciencias",
     "rrc_raa": "NA",
     "procedimiento": "MODIFICATORIA - PAE",
-    "modalidad": "",
+    "modalidad": "Presencial",
     "responsable": "Andrea Castellanos",
     "estado": "En revisión",
     "observaciones": "12/06/2025: Radican mediante correo \"Fwd: Recomendación para estudio y aprobación de la actualización del PAE y modificación de la periodicidad – Maestría en Ciencias-Física.\"\r\n25/08/2025: Se envía concepto de revisión documental y se tiene una reunión en la que se exponen los principales comentarios y sugerencias. \r\n15/09/2025: El programa radica los documentos de la modificación. "
@@ -1086,7 +1096,7 @@
     "procedimiento": "PAE",
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
-    "estado": "En ajustes por el programa",
+    "estado": "En fila",
     "observaciones": "09 de junio de 2025 mediante correo \"Fwd: Envío para Trámite PAE DE MAESTRIA EN DESARROLLO RURAL\"\r\n- 27/06/2025 emisión del primer concepto de revisión.\r\n- 18/07/2025. Se realizó sesión de retroalimentación del concepto de revisión estableciendose como fecha de radicaicón el 29 de julio de 2025."
   },
   {
@@ -1286,8 +1296,8 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Marialejandra Florez",
-    "estado": "En revisión",
-    "observaciones": "03/09/2025 - Radicado al Departamento"
+    "estado": "En ajustes por el programa",
+    "observaciones": "03/09/2025 - Radicado al Departamento\r\n29/09/2025 - Se realizó reunión con el programa con el fin de socializar las observaciones realizadas a la Autoevaluación del prorgama.\r\n30/09/2025 - Se envia concepto de revisión "
   },
   {
     "programa": "Maestría en Patrimonio Cultural",
@@ -1326,7 +1336,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Virtual",
     "responsable": "Marialejandra Florez",
-    "estado": "En revisión",
+    "estado": "En fila",
     "observaciones": "04/08/2025 - Proyección correo: Solicitud al programa de las condiciones de calidad RRC (Debian radicar el 13/07/2025)\r\n28/08/2025 - Se comparte a la profe Tannia las condiciones de la calidad con las cuales se habia informado al MEN el cambio de plan de estudios. La profe comenta que están en elaboración de condiciones de calidad. \r\n18/09/2025 - El programa radica 8 de las 9 condiciones de calidad.\r\n19/09/2025 - El porgrama radica la condición 7."
   },
   {
@@ -1366,8 +1376,18 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Marialejandra Florez",
-    "estado": "En ajustes por el programa",
-    "observaciones": "28/08/2024 - Recepción de documentos para modificación de Acuerdo de Creación y creación de PAE. 03/09/2024 - Primer concepto de observaciones a documentos radicados, exceptuando PAE y Estudio de Impacto. Asimismo, se les informó que en los documentos radicados les hizo falta la Resolución PAE.\r\n23/09/2024 - Segunda radicación por parte del programa - incluye PAE\r\n11/10/2024 - Segunda revisión documental. Asimismo, se emite concepto de Excel financiero e Informe Técnico.\r\n01/11/2024 - Se envió a la profesora Tannia Alvarez el estado del programa\r\n03/02/2025 - Se reenvia concepto de Excel financiero e Informe Técnico.\r\n12/02/2025 - Se envia documentación para solicitud de conceptos a Dirección Jurídica, Dirección de Planeación y Vicerrectoria Administrativa y Financiera.\r\n19/02/2025 - Recepción de concepto de planeación y se remite a VAFI.\r\n25/02/2025 - Recepción de concepto de VAFI.\r\n25/02/2025 - Se envía primer concepto del PAE al programa, para radicar a más tardar el 27 de febrero.\r\n03/03/2025 - Recepción concepto jurídico.\r\n03/03/2025 - Se realiza la radicación de la modificatoria a Consejo Académico.\r\n10/03/2025 - Segunda radicación del programa - PAE\r\nRecomendado a Consejo Superior (proximo 27 de marzo)\r\n01/04/2025 - Se envía el PAE al programa para realizar los últimos ajustes al documento - asimismo, se pide actualización de cartas Aval.\r\n07/04/2025 - Radicación de la autoevaluación del programa\r\n10/04/2025 - Se radica el PAE a Consejo académico para su actualización.\r\n21/04/2025 - El PAE Es aprobado por Consejo académico en sesión 09.\r\n21/05/2025 - Se envia primer concepto de revisión de la Autoevaluación del programa.\r\n19/06/2025 - Segunda radicación de ajustes solicitados a la Autoevalución del programa.\r\n01/08/2025 - Se llevó a cabo una reunión con el profesional AC del programa con el fin de socializar las observaciones sugeridas al documento de autoevaluación. Asimismo, se remitió el segundo concepto correspondiente a la revisión documental. \r\n23/09/2025 - Se envia al programa el excel de graduados que nos compartió la dependencia."
+    "estado": "En fila",
+    "observaciones": "28/08/2024 - Recepción de documentos para modificación de Acuerdo de Creación y creación de PAE. 03/09/2024 - Primer concepto de observaciones a documentos radicados, exceptuando PAE y Estudio de Impacto. Asimismo, se les informó que en los documentos radicados les hizo falta la Resolución PAE.\r\n23/09/2024 - Segunda radicación por parte del programa - incluye PAE\r\n11/10/2024 - Segunda revisión documental. Asimismo, se emite concepto de Excel financiero e Informe Técnico.\r\n01/11/2024 - Se envió a la profesora Tannia Alvarez el estado del programa\r\n03/02/2025 - Se reenvia concepto de Excel financiero e Informe Técnico.\r\n12/02/2025 - Se envia documentación para solicitud de conceptos a Dirección Jurídica, Dirección de Planeación y Vicerrectoria Administrativa y Financiera.\r\n19/02/2025 - Recepción de concepto de planeación y se remite a VAFI.\r\n25/02/2025 - Recepción de concepto de VAFI.\r\n25/02/2025 - Se envía primer concepto del PAE al programa, para radicar a más tardar el 27 de febrero.\r\n03/03/2025 - Recepción concepto jurídico.\r\n03/03/2025 - Se realiza la radicación de la modificatoria a Consejo Académico.\r\n10/03/2025 - Segunda radicación del programa - PAE\r\nRecomendado a Consejo Superior (proximo 27 de marzo)\r\n01/04/2025 - Se envía el PAE al programa para realizar los últimos ajustes al documento - asimismo, se pide actualización de cartas Aval.\r\n07/04/2025 - Radicación de la autoevaluación del programa\r\n10/04/2025 - Se radica el PAE a Consejo académico para su actualización.\r\n21/04/2025 - El PAE Es aprobado por Consejo académico en sesión 09.\r\n21/05/2025 - Se envia primer concepto de revisión de la Autoevaluación del programa.\r\n19/06/2025 - Segunda radicación de ajustes solicitados a la Autoevalución del programa.\r\n01/08/2025 - Se llevó a cabo una reunión con el profesional AC del programa con el fin de socializar las observaciones sugeridas al documento de autoevaluación. Asimismo, se remitió el segundo concepto correspondiente a la revisión documental. \r\n23/09/2025 - Se envia al programa el excel de graduados que nos compartió la dependencia.\r\n29/09/2025 - El programa realiza radicación de la Autoevaluación con los ajustes sugeridos"
+  },
+  {
+    "programa": "Especialización en Informática para la Docencia",
+    "facultad": "Seccional Duitama",
+    "rrc_raa": "RRC-2025",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial a Presencial - Virtual",
+    "responsable": "Marialejandra Florez",
+    "estado": "En fila",
+    "observaciones": "29/09/2025 - El programa radica las condiciones de calidad."
   },
   {
     "programa": "Especialización en Gestión Ambiental",
@@ -1426,8 +1446,8 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial",
     "responsable": "Marialejandra Florez",
-    "estado": "En ajustes por el programa",
-    "observaciones": "21/04/2025 - Radicación de la Autoevaluación del programa\r\n30/05/2025 - Se envía primer concepto de revisión de Autoevaluación al programa.\r\n31/07/2025 - El programa radica el informe de autoevaluación con los ajustes sugeridos.\r\n25/07/2025 - Se envia segundo concepto de de revisión de la autoevaluación.\r\n23/09/2025 - Se envia correo al porgrama para saber el estado de la documentación."
+    "estado": "En fila",
+    "observaciones": "21/04/2025 - Radicación de la Autoevaluación del programa\r\n30/05/2025 - Se envía primer concepto de revisión de Autoevaluación al programa.\r\n31/07/2025 - El programa radica el informe de autoevaluación con los ajustes sugeridos.\r\n25/07/2025 - Se envia segundo concepto de de revisión de la autoevaluación.\r\n23/09/2025 - Se envia correo al porgrama para saber el estado de la documentación.\r\n29/09/2025 -  El programa radica la Autoevaluación con los ajustes sugeridos."
   },
   {
     "programa": "Especialización en Gerencia de Proyectos de Construcción",
