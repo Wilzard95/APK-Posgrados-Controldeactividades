@@ -976,8 +976,8 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "Pendiente SACES-MEN",
-    "observaciones": "Inicio de segunda revisión el 13 de junio, se amplia plazo de revisión hasta el 20 de junio.\r\nSesión de trabajo 21 de agosto Emisión de segundo concepto de revisión 22 de agosto. Radicación del programa 23 de agosto. \r\nEmisión de tercer concepto 28 de agosto de 2024. \r\nRadicación documental al departamento 03 de septiembre, la documentación se encuentra incompleta por lo que se solicita la radicación completa de la documentación.\r\nCreando moodle (22 de noviembre de 2024)\r\n-06/06/2025: Se envío correo de recordatorio solictando información sobre la creación de moodle. Se recibe respuesta indicando que se cuenta con el desarrollo del 90% de los cursos. \r\n- 17/06/2025: El programa solicita la gestión para la creación del curso faltante en la plataforma moodle.\r\n-Se envía concepto de revisión el 10/07/2025, recibiendo radicación de documentación ajustada el 13/08/2025 y enviando segundo concepto de revisión el 08/09/2025."
+    "estado": "Completado",
+    "observaciones": "Inicio de segunda revisión el 13 de junio, se amplia plazo de revisión hasta el 20 de junio.\r\nSesión de trabajo 21 de agosto Emisión de segundo concepto de revisión 22 de agosto. Radicación del programa 23 de agosto. \r\nEmisión de tercer concepto 28 de agosto de 2024. \r\nRadicación documental al departamento 03 de septiembre, la documentación se encuentra incompleta por lo que se solicita la radicación completa de la documentación.\r\nCreando moodle (22 de noviembre de 2024)\r\n-06/06/2025: Se envío correo de recordatorio solictando información sobre la creación de moodle. Se recibe respuesta indicando que se cuenta con el desarrollo del 90% de los cursos. \r\n- 17/06/2025: El programa solicita la gestión para la creación del curso faltante en la plataforma moodle.\r\n-Se envía concepto de revisión el 10/07/2025, recibiendo radicación de documentación ajustada el 13/08/2025 y enviando segundo concepto de revisión el 08/09/2025.\r\n- Se realizó cierre de caso en plataforma Nuevo SACES el 14 de octubre de 2025"
   },
   {
     "programa": "Maestría en Didáctica de la Matemática",
@@ -1058,6 +1058,26 @@
     "responsable": "Jessica Cuervo",
     "estado": "Completado",
     "observaciones": "Radicado solicitud de conceptos el 10 de mayo de 2024\r\nSe respondio solicitud a planeación con base a respuesta del Departamento de innovación el 17 de junio\r\nSolicitar reiteración de conceptos hoy 21 de junio\r\nProyectado para actualización por cohortes en curso\r\nConcepto enviado martes 30 de julio\r\nSe realizó reunión de trabajo el pasado 5 de agosto de 2024, donde se presentaron todas las observaciones de los 3 programas relacionados con el turísmo.\r\nEl programa reducirá de 25 a 24 créditos académicos.\r\nEl programa se comprometió a remitir los documentos actualizados el día 9 de agosto\r\nLa proyección de revisión por el DP sería de 12 al 16 de agosto de 2024\r\nSolicitud de conceptos para modificatoria 02 de septiembre\r\nSe envió el documento PAE al Departamento de Planeación el día 16 de septiembre\r\nRecepción del concepto de Planeación 17 de septiembre.\r\nSe envió el concepto de Planeación a VAFI.\r\nSe radicaron los documentos de modificatoria al Consejo Académico el día 02 de octubre.\r\nSe radica al CA solicitud de Resolución PAE el 03 de diciembre de 2024.\r\nSe informa al MEN el 30 de diciembre de 2024 las modificaciones del programa.\r\nRecepción de completitud el 27 de febrero de 2025 (proyección de respuesta 28 de febrero de 2025)\r\nRespuesta enviada el 11 de marzo de 2025 al MEN"
+  },
+  {
+    "programa": "Especialización Planificación del Turismo Sostenible",
+    "facultad": "Seccional Duitama",
+    "rrc_raa": "RRC-2026",
+    "procedimiento": "AUTOEVALUACIÓN",
+    "modalidad": "Presencial a Virtual",
+    "responsable": "Jessica Cuervo",
+    "estado": "En fila",
+    "observaciones": ""
+  },
+  {
+    "programa": "Especialización Planificación del Turismo Sostenible",
+    "facultad": "Seccional Duitama",
+    "rrc_raa": "RRC-2027",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial a Virtual",
+    "responsable": "Jessica Cuervo",
+    "estado": "En fila",
+    "observaciones": "Falta radicar las condiciones 6 y 7"
   },
   {
     "programa": "Maestria en Ciencias Biologicas",
@@ -1636,7 +1656,7 @@
     "procedimiento": "SUPRESIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "Solicitud de conceptos",
+    "estado": "Radicado CA o CS",
     "observaciones": "10/09/2025: Reunion con el programa para verificar proyecto de Acuerdo"
   },
   {
