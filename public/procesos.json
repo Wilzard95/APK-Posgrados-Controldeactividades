@@ -647,7 +647,7 @@
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Eliana Pedreros",
     "estado": "Completado",
-    "observaciones": "PAE revisado para ajustes"
+    "observaciones": "Se encuentra pendiente la radicacion de las condiciones de calidad para informar el cambio de modalidad al MEN"
   },
   {
     "programa": "Especialización en Finanzas",
@@ -746,7 +746,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "30/09/2025: Radicado por el programa"
   },
   {
@@ -756,7 +756,7 @@
     "procedimiento": "PAE",
     "modalidad": "Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "En fila",
+    "estado": "En ajustes por el programa",
     "observaciones": ""
   },
   {
@@ -766,7 +766,7 @@
     "procedimiento": "PAE",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En revisión",
+    "estado": "En ajustes por el programa",
     "observaciones": "Con un concepto de revision"
   },
   {
@@ -808,6 +808,16 @@
     "responsable": "Eliana Pedreros",
     "estado": "Radicado CA o CS",
     "observaciones": "Modificatoria devuelta al programa para radicar a inicios del 2025\r\nRadicado solo modificatoria\r\nPrimer concepto solo de modificacion del 15 de mayo\r\n04/07/2025: En solicitud de conceptos\r\n25/08/2025: Mesa tecnica con planeacion"
+  },
+  {
+    "programa": "Especialización en Bases de Datos",
+    "facultad": "Ingeniería",
+    "rrc_raa": "RRC-2026",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial a Virtual",
+    "responsable": "Eliana Pedreros",
+    "estado": "En revisión",
+    "observaciones": ""
   },
   {
     "programa": "Maestría en Finanzas",
@@ -1517,7 +1527,7 @@
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Marialejandra Florez",
     "estado": "En ajustes por el programa",
-    "observaciones": "14/07/2025 - Se solicita al programa las condiciones de calidad (0,1, 3, 4 y 8) para realizar la respectiva información al SACES\r\n15/07/2025 - Se solicita al Departamento de Innovación Académica la creación de los cursos Moodle.\r\n21/07/2025 - Se envia al programa el correo emitido por la DIA relacionado a la creación de cursos Moodle.\r\n06/08/2025 - Se envía al programa nuevamente la solicitud de la condiciones de calidad y cursos Moodle, dando plazo máximo hasta el 25 de agosto.\r\n16/09/2025 - El programa radica las condiciones de calidad solicitadas para su revisión.\r\n06/10/2025 - Se envia primer concepto de revisión de CC al programa"
+    "observaciones": " "
   },
   {
     "programa": "Especialización en Tributaria",
