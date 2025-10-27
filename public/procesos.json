@@ -395,9 +395,9 @@
     "rrc_raa": "NA",
     "procedimiento": "MODIFICACIÓN, PAE",
     "modalidad": "",
-    "responsable": "El programa no volvió a RD",
-    "estado": "Devuelto",
-    "observaciones": ""
+    "responsable": "No asignado",
+    "estado": "En fila",
+    "observaciones": "Fwd: RADICADO VERSIÓN FINAL DEL DOCUMENTO PAE Y ANEXOS _MAEMTIC"
   },
   {
     "programa": "Maestría en Historia",
@@ -886,7 +886,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "En ajustes por el programa",
+    "estado": "En revisión",
     "observaciones": "29/07/2025 Se envía primer concepto de revisión"
   },
   {
@@ -918,6 +918,16 @@
     "responsable": "Jessica Cuervo",
     "estado": "Completado",
     "observaciones": "- Se envió concepto de revisión el 16 de mayo de 2025 (Autoevaluación)\r\n- El programa radica la autoevaluación el 06 de junio y solicita sesión asesoría, la cual se desarrollo el lunes 09 de junio y dado las conclusiones de la sesión se establecio como fecha de radicación el lunes 16 de junio de 2025.\r\nRadicado el 4 de julio de 2025\r\n- Se emite correo de respuesta el 16 de julio de 2025, avalando el informe de autoevaluación y solicitando el plan de mejoramiento, con fecha límite el 21 de julio de 2025.\r\n-A espera radicación del plan de mejoramiento (23/07/2025)\r\n- Nueva radicación de informe y plan de mejoramiento el 03/09/2025\r\n- Se envío correo con visto bueno y verificación final el 29/09/2025. "
+  },
+  {
+    "programa": "Especialización en Infraestructura vial",
+    "facultad": "Ingeniería",
+    "rrc_raa": "RRC-2026",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial",
+    "responsable": "Jessica Cuervo",
+    "estado": "En fila",
+    "observaciones": ""
   },
   {
     "programa": "Doctorado en Ciencias Biológicas y Ambientales",
@@ -1156,7 +1166,7 @@
     "procedimiento": "PAE",
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "09 de junio de 2025 mediante correo \"Fwd: Envío para Trámite PAE DE MAESTRIA EN DESARROLLO RURAL\"\r\n- 27/06/2025 emisión del primer concepto de revisión.\r\n- 18/07/2025. Se realizó sesión de retroalimentación del concepto de revisión estableciendose como fecha de radicaicón el 29 de julio de 2025."
   },
   {
@@ -1688,5 +1698,15 @@
     "responsable": "No asignado",
     "estado": "En fila",
     "observaciones": "Radicado DP el 06/10/2025, documentos en la siguiente carpeta https://drive.google.com/drive/folders/1LRgeGJMIXNTf7Pi5Rcs7lzopABdrbDah?usp=drive_link"
+  },
+  {
+    "programa": "Especilización en Seguridad y Salud en Trabajo",
+    "facultad": "Ciencias de la salud",
+    "rrc_raa": "",
+    "procedimiento": "MODIFICACIÓN",
+    "modalidad": "",
+    "responsable": "Lorena Reyes",
+    "estado": "en fila",
+    "observaciones": "Remisión de documentos – Modificación y actualización del PAE Especialización en Seguridad y Salud en el Trabajo\r\n"
   }
 ]
