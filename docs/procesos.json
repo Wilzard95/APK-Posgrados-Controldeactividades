@@ -1775,9 +1775,9 @@
     "rrc_raa": "NA",
     "procedimiento": "CREACIÓN",
     "modalidad": "",
-    "responsable": "",
+    "responsable": "No asignado",
     "estado": "En fila",
-    "observaciones": ""
+    "observaciones": "Radicación incompleta"
   },
   {
     "programa": "Especialización en Medicina y Cirugía de Pequeños Animales",
@@ -1785,9 +1785,9 @@
     "rrc_raa": "NA",
     "procedimiento": "CREACIÓN",
     "modalidad": "",
-    "responsable": "",
+    "responsable": "No asignado",
     "estado": "En fila",
-    "observaciones": ""
+    "observaciones": "Enlace drive: https://drive.google.com/drive/folders/1q0QMyGuWqEDaErclA6-m1AIiX76LWzAl?usp=drive_link"
   },
   {
     "programa": "Especialización en Manejo Biológico de Cultivos",
@@ -1795,8 +1795,8 @@
     "rrc_raa": "NA",
     "procedimiento": "CREACIÓN",
     "modalidad": "",
-    "responsable": "",
+    "responsable": "No asignado",
     "estado": "En fila",
-    "observaciones": ""
+    "observaciones": "Enlace drive: https://drive.google.com/drive/folders/1y3gRv1ttA1BMSJuCWghtbhlohBBoLRwY?usp=drive_link"
   }
 ]
