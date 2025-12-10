@@ -404,7 +404,7 @@
     "facultad": "Ciencias de la Educación",
     "rrc_raa": "NA",
     "procedimiento": "MODIFICACIÓN, PAE",
-    "modalidad": "",
+    "modalidad": "Presencial a Virtual",
     "responsable": "No asignado",
     "estado": "En fila",
     "observaciones": "Fwd: RADICADO VERSIÓN FINAL DEL DOCUMENTO PAE Y ANEXOS _MAEMTIC"
@@ -596,7 +596,7 @@
     "procedimiento": "MODIFICACIÓN",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "Completado",
+    "estado": "Pendiente SACES-MEN",
     "observaciones": "Radicado para conceptos diciembre 2024\r\nCon concepto de planeacion del 19 de febrero\r\nCon concepto de VAFI del 25 de febrero\r\nCon concepto de juridico del 3 de marzo\r\nRadicado a CA el 3 de marzo\r\nPara sustentar sesion del 13 de marzo\r\nCon Acuerdo modificatorio aprobado por Consejo Superior, del 27 de marzo"
   },
   {
@@ -676,7 +676,7 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial a RU [Presencial Y Virtual]",
     "responsable": "Eliana Pedreros",
-    "estado": "En revisión",
+    "estado": "Completado",
     "observaciones": "Radicación de informe de autoevaluación con fines de RRC (21-junio-2024)"
   },
   {
@@ -686,7 +686,7 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial a Virtual",
     "responsable": "Lorena Reyes",
-    "estado": "En ajustes por el programa",
+    "estado": "Completado",
     "observaciones": ""
   },
   {
@@ -696,7 +696,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a RU [Presencial Y Virtual]",
     "responsable": "Eliana Pedreros",
-    "estado": "En revisión",
+    "estado": "Completado",
     "observaciones": ""
   },
   {
@@ -706,7 +706,7 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En ajustes por el programa",
+    "estado": "Completado",
     "observaciones": "- 12 de febrero de 2025: Con concepto de autoevaluacion\r\n- 26 de febrero de 2025: Con reunion de retroalimentacion y concepto de revision de modificatoria\r\n- 23 de abril de 2025: Segunda radicacion modificatoria - 15 de mayo de 2025: Con solicitud de correcciones - 20 de mayo de 2025: Solicitud de conceptos - 21 de mayo de 2025: Ajustes solicitados por planeación - Falta concepto jurídico"
   },
   {
@@ -716,11 +716,11 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial",
     "responsable": "Lorena Reyes",
-    "estado": "En ajustes por el programa",
+    "estado": "Completado",
     "observaciones": "Se realizo la revision de la condiciones de calidad 3 y 4 y cargue en la plataforma SACES, en coherencia con el PAE aprobado en 2024"
   },
   {
-    "programa": "Especialización en Contabilidad Financiera Internacional",
+    "programa": "ENIIF (Especialización en Contabilidad Financiera Internacional)",
     "facultad": "Ciencias Económicas y Administrativas",
     "rrc_raa": "NA",
     "procedimiento": "MODIFICATORIA PAE",
@@ -736,7 +736,7 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En ajustes por el programa",
+    "estado": "En revisión",
     "observaciones": "10/09/2025: Reunion con el programa para socializacion del concepto de revisión "
   },
   {
@@ -746,7 +746,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En ajustes por el programa",
+    "estado": "Completado",
     "observaciones": "28/08/2025: Primer concepto"
   },
   {
@@ -766,7 +766,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "En ajustes por el programa",
+    "estado": "En revisión",
     "observaciones": "30/09/2025: Radicado por el programa"
   },
   {
@@ -806,7 +806,7 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "Pendiente SACES-MEN",
+    "estado": "En revisión",
     "observaciones": "22/03/2025 Primera Radicación\r\n22/05/2024 Se realizó un retroalimentación sobre el estudio de pertinencia y de la plantilla financiera  en Duitama, se encunetra en proceso de revisión los demás documentos\r\n25/06/2024 Primer concepto\r\n27/06/2024 Enviar correo de solicitud de información corregida de la plantilla financiera \r\nSegún personal de apoyo se cargo los documentos actualizados con base a las sugerencias realizadas desde el departamento a espera de correcciones del programa\r\n\r\n09/07/2024 PROGRAMA RADICO PARA SEGUNDA REVISIÓN E\r\n02/08/2024 Segundo concepto, en correcciones por el programa\r\n\r\nEn revisión 22 al 26 de julio\r\n2/08/2024 Tercer concepto\r\n21/08/2024 Tercera radicación 21 de agosto\r\n12/12/2024 En solicitud de conceptos, con devolucion de planeacion\r\n16/05/2025 RD al CA\r\n09/06/25: PAE radicado a CA para Acuerdo\r\n02/07/2025: segunda solicitud de condiciones al programa"
   },
   {
@@ -826,7 +826,7 @@
     "procedimiento": "MODIFICACIÓN",
     "modalidad": "Presencial a Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "Radicado CA o CS",
+    "estado": "Completado",
     "observaciones": "Modificatoria devuelta al programa para radicar a inicios del 2025\r\nRadicado solo modificatoria\r\nPrimer concepto solo de modificacion del 15 de mayo\r\n04/07/2025: En solicitud de conceptos\r\n25/08/2025: Mesa tecnica con planeacion"
   },
   {
@@ -836,7 +836,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "",
+    "estado": "En revisión",
     "observaciones": "Se espera version final dado que el programa no radico la version completa"
   },
   {
@@ -846,8 +846,18 @@
     "procedimiento": "MODIFICACIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "Radicado CA o CS",
+    "estado": "Completado",
     "observaciones": "Con conceptos viables de planeación y VAFI, pendiente jurídico, conforme lo conversado con el programa se quiere hacer modificación del valor de la matrícula "
+  },
+  {
+    "programa": "Maestría en Finanzas",
+    "facultad": "Ciencias Económicas y Administrativas",
+    "rrc_raa": "RRC-2026",
+    "procedimiento": "MODIFICACIÓN",
+    "modalidad": "Presencial",
+    "responsable": "Eliana Pedreros",
+    "estado": "En ajustes por el programa",
+    "observaciones": ""
   },
   {
     "programa": "Doctorado en Educación Matemática",
@@ -856,7 +866,7 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Presencial - Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "Radicado CA o CS",
+    "estado": "Pendiente SACES-MEN",
     "observaciones": "•\tRadicado el 4 de julio, sin los avales de educación\r\n•\tCon segunda radicación el día 18 de agosto\r\n•\tReunión de retroalimentación 4 de septiembre\r\n•\tPendiente unificar concepto con educación según reunión virtual\r\n•\tReunión con educación para unificar concepto para 16 de septiembre\r\n•\t05/06/2025: Conforme lo conversado con el programa se envió correo para ajustar el mapeo curricular y lo referente a la modalidad de las actividades curriculares, ademas de estudio de pertinencia y firma de documentos\r\n13/06/2025: El programa radico con los ajustes sugeridos, no realizaron cambios en la modalidad de las AC\r\n22/07/2025: Mesa tecnica con DJ, DP, VAFI"
   },
   {
@@ -946,7 +956,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
-    "estado": "En revisión",
+    "estado": "Completado",
     "observaciones": "Se envia concepto de condiciones 1-4 el 27 de noveimbre de 2025"
   },
   {
@@ -1016,7 +1026,7 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "En revisión",
+    "estado": "En completitud",
     "observaciones": "Inicio de segunda revisión el 13 de junio, se amplia plazo de revisión hasta el 20 de junio.\r\nSesión de trabajo 21 de agosto Emisión de segundo concepto de revisión 22 de agosto. Radicación del programa 23 de agosto. \r\nEmisión de tercer concepto 28 de agosto de 2024. \r\nRadicación documental al departamento 03 de septiembre, la documentación se encuentra incompleta por lo que se solicita la radicación completa de la documentación.\r\nCreando moodle (22 de noviembre de 2024)\r\n-06/06/2025: Se envío correo de recordatorio solictando información sobre la creación de moodle. Se recibe respuesta indicando que se cuenta con el desarrollo del 90% de los cursos. \r\n- 17/06/2025: El programa solicita la gestión para la creación del curso faltante en la plataforma moodle.\r\n-Se envía concepto de revisión el 10/07/2025, recibiendo radicación de documentación ajustada el 13/08/2025 y enviando segundo concepto de revisión el 08/09/2025.\r\n- Se realizó cierre de caso en plataforma Nuevo SACES el 14 de octubre de 2025"
   },
   {
@@ -1116,7 +1126,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "En revisión",
+    "estado": "Completado",
     "observaciones": ""
   },
   {
@@ -1166,7 +1176,7 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Presencial-Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "Pendiente Resolución MEN",
+    "estado": "Completado",
     "observaciones": "Se realizó recordatorio de segunda radicación al programa el 20 de mayo de 2024.\r\nSe establece reunión para RA para el 18 de junio de 2024.\r\nSe amplió fecha de radicación a primera semana de julio (2 al 5)\r\nNueva radicación  de los RA\r\nSe proyecta revisión y emisión de concepto 12 de julio\r\nCon segunda radicación del 11 de julio (Pendiente RA en coherencia con Maestría Ing Civil)\r\nEmisión de tercer concepto de revisión 24 de julio\r\nNueva radicación el 6 de agosto, pendiente de verificación de documentación para solicitud de conceptos.\r\nSolicitud de conceptos 23 de agosto.\r\nRecepción del Concepto de Planeación 10 de septiembre.\r\nSe emite correo de Concepto de Planeación a Vafi 10 de septiembre.\r\nRecepción del Concepto de Vafi 16 de septiembre.\r\nSe remite documentación al Consejo Académico el día 30 de septiembre.\r\nSe envío respuesta a completitud al MEN en 20 de febrero de 2025"
   },
   {
@@ -1716,7 +1726,7 @@
     "procedimiento": "SUPRESIÓN",
     "modalidad": "Presencial",
     "responsable": "Eliana Pedreros",
-    "estado": "Radicado CA o CS",
+    "estado": "Pendiente SACES-MEN",
     "observaciones": "10/09/2025: Reunion con el programa para verificar proyecto de Acuerdo"
   },
   {
