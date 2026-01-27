@@ -66,7 +66,7 @@
     "procedimiento": "MODIFICACIÓN ",
     "modalidad": "virtual ",
     "responsable": "Andrea Castellanos",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "14/08/2025: El programa radica los documentos pertinentes a modificación de Acuerdo de Creación y actualización de PAE. \r\n"
   },
   {
@@ -416,7 +416,7 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial - Virtual",
     "responsable": "Angela Ayala",
-    "estado": "Sin radicación",
+    "estado": "En revisión",
     "observaciones": "Se hace el recordatorío del envío el 20 de noviembre de 2025 después de la publicación del PAE, también se recuerda la creación de los cursos moodle "
   },
   {
@@ -576,7 +576,7 @@
     "procedimiento": "SUPRESIÓN",
     "modalidad": "",
     "responsable": "Angela Ayala",
-    "estado": "En revisión",
+    "estado": "En ajustes por el programa",
     "observaciones": "Radicado DP el 06/10/2025, documentos en la siguiente carpeta https://drive.google.com/drive/folders/1LRgeGJMIXNTf7Pi5Rcs7lzopABdrbDah?usp=drive_link\r\nEl 27 de noviembre de 2025 a través del DP-25-1401. Se hace la notificación sobre la NO renovación del Registro Calificado del programa Maestría en Derechos Humanos – Sede Bogotá con código SNIES 101994 de la UPTC"
   },
   {
@@ -606,7 +606,7 @@
     "procedimiento": "CREACIÓN",
     "modalidad": "Presencial - Virtual",
     "responsable": "Eliana Pedreros",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "•\tRadicado el 4 de julio, sin los avales de educación\r\n•\tCon segunda radicación el día 18 de agosto\r\n•\tReunión de retroalimentación 4 de septiembre\r\n•\tPendiente unificar concepto con educación según reunión virtual\r\n•\tReunión con educación para unificar concepto para 16 de septiembre\r\n•\t05/06/2025: Conforme lo conversado con el programa se envió correo para ajustar el mapeo curricular y lo referente a la modalidad de las actividades curriculares, ademas de estudio de pertinencia y firma de documentos\r\n13/06/2025: El programa radico con los ajustes sugeridos, no realizaron cambios en la modalidad de las AC\r\n22/07/2025: Mesa tecnica con DJ, DP, VAFI"
   },
   {
@@ -1293,11 +1293,21 @@
     "programa": "Maestria en Ciencias Física",
     "facultad": "Ciencias",
     "rrc_raa": "NA",
-    "procedimiento": "MODIFICATORIA - PAE",
+    "procedimiento": "MODIFICATORIA ",
     "modalidad": "Presencial",
     "responsable": "Andrea Castellanos",
     "estado": "Completado",
     "observaciones": "12/06/2025: Radican mediante correo \"Fwd: Recomendación para estudio y aprobación de la actualización del PAE y modificación de la periodicidad – Maestría en Ciencias-Física.\"\r\n25/08/2025: Se envía concepto de revisión documental y se tiene una reunión en la que se exponen los principales comentarios y sugerencias. \r\n15/09/2025: El programa radica los documentos de la modificación. "
+  },
+  {
+    "programa": "Maestria en Ciencias Física",
+    "facultad": "Ciencias",
+    "rrc_raa": "NA",
+    "procedimiento": "PAE",
+    "modalidad": "Presencial",
+    "responsable": "Andrea Castellanos",
+    "estado": "En revisión",
+    "observaciones": "12/06/2025: Radican mediante correo \"Fwd: Recomendación para estudio y aprobación de la actualización del PAE y modificación de la periodicidad – Maestría en Ciencias-Física.\""
   },
   {
     "programa": "Maestría en Ciencias Matemáticas",
@@ -1307,7 +1317,7 @@
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
     "estado": "Completado",
-    "observaciones": "03/07/24 Solo PAE radicado. Se solicita documentación necesaria para continuidad del procedimiento a lo que el programa solicita revisión previa del PAE para sometimiento a Comité de Currículo y Consejo de Facultad.\r\n11/10/24 se emite primer concepto de revisión y se programa sesión de retroalimentación, el programa solicita reprogramarla, se atiende la solicitud, sin embargo, el programa no asiste.\r\n11/12/2024 El programa remite un correo al personal de apoyo del Departamento de Posgrados informando la realización parcial de ajustes.\r\nSe registraron ajustes del programa el 6 de febrero\r\n• Pendiente dar respuesta a correo de solicitud de información (se proyecta dar respuesta el 28 de febrero)\r\n- Asesoría el 10 de marzo de 2025, el programa manifiesta que el PAE esta en sometimiento de aval de comité de currículo y Consejo de Facultad.\r\n- El programa radicó el Departamento el 25 de abril de 2025\r\n- Se realiza sesión de trabajo en el que se realizaron los ajustes necesarios al documento PAE y se envía segundo concepto de revisión el 10 de junio de 2025. Acordando fecha de radicación el 11 de junio de 2025.\r\n-Aprovado en sesión ordinaria 18 del 16 y 17 de junio de 2025,"
+    "observaciones": "25/08/2025: Se envía concepto de revisión documental y se tiene una reunión en la que se exponen los principales comentarios y sugerencias."
   },
   {
     "programa": "Maestría en Contabilidad Internacional",
@@ -1547,7 +1557,7 @@
     "modalidad": "Presencial",
     "responsable": "Marialejandra Florez",
     "estado": "En revisión",
-    "observaciones": ""
+    "observaciones": "Con concepto de revisión 05/01/2026"
   },
   {
     "programa": "Maestría en Fisiología Vegetal",
@@ -1796,7 +1806,7 @@
     "procedimiento": "MODIFICACIÓN - PAE",
     "modalidad": "Presencial a Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "23/10/2025 - Primera radicación\r\n11/12/2025 - Radicicación completa del programa "
   },
   {
@@ -1826,7 +1836,7 @@
     "procedimiento": "PAE",
     "modalidad": "Presencial",
     "responsable": "Marialejandra Florez",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "18/11/2024 - Devuelto al programa\r\n11/12/2025 - Radicación completa del programa "
   },
   {
@@ -1846,7 +1856,7 @@
     "procedimiento": "MODIFICACIÓN - PAE",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Angela Ayala",
-    "estado": "En fila",
+    "estado": "En revisión",
     "observaciones": "18/11/2024 - Devuelto al programa\r\n11/12/2025 - Radicación completa del programa "
   },
   {
@@ -1888,5 +1898,15 @@
     "responsable": "Lorena Reyes",
     "estado": "Completado",
     "observaciones": "Ya tiene conceptos\r\nPara radicar al académico el 12 de julio\r\nSesión CA 2 de agosto\r\nCon reporte de listado de estudiantes SNIES enviado al programa el 18 de octubre, para contrucción del plan de contingencia\r\nDevuelto el 9 de diciembre por datos faltantes\r\nCon correo de recordatorio del 29 de enero\r\nRadicado al MEN\r\nDevuelto por el MEN\r\nCon correo de recordatorio del 30 de abril para ajustes\r\nAjustado y vuelto a remitir el 9 de mayo"
+  },
+  {
+    "programa": "Maestría en Gestión de Integridad y Corrosión ",
+    "facultad": "Ingeniería",
+    "rrc_raa": "RRC",
+    "procedimiento": "AUTOEVALUACIÓN ",
+    "modalidad": "Virtual",
+    "responsable": "Marialejandra Florez",
+    "estado": "En fila",
+    "observaciones": "23/01/2026 - Radicación por parte del programa"
   }
 ]
