@@ -56,8 +56,8 @@
     "procedimiento": "AUTOEVALUACIÓN",
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
-    "estado": "Completado",
-    "observaciones": "• Se envío concepto de revisión el 18 de noviembre de 2024\r\n• Pendiente dar respuesta a correo de solicitud de información (se proyecta dar respuesta el 28 de febrero)\r\n- Radicación al Departamento de Posgrados autoevaluación ajustada el 18 de marzo de 2025\r\n- Se envío segundo concepto de revisión el 24 de abril de 2025\r\n- El programa radicó el 28 de abril de 2025.\r\n-Se envía correo confirmatorio el 16 de 06 de 2025. "
+    "estado": "En fila",
+    "observaciones": "\r\n• Se envío concepto de revisión el 18 de noviembre de 2024\r\n• Pendiente dar respuesta a correo de solicitud de información (se proyecta dar respuesta el 28 de febrero)\r\n- Radicación al Departamento de Posgrados autoevaluación ajustada el 18 de marzo de 2025\r\n- Se envío segundo concepto de revisión el 24 de abril de 2025\r\n- El programa radicó el 28 de abril de 2025.\r\n-Se envía correo confirmatorio el 16 de 06 de 2025. \r\n___________________________________________________________________________\r\n\r\n\r\nEl programa realiza radiación de documentación actualizada el 02 de febrero de 2026, cumpliendo con los compromisos establecidos en el 2025."
   },
   {
     "programa": "Especialización en Alta Gerencia de Empresas",
@@ -1066,8 +1066,8 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Presencial a Presencial - Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "Pendiente Resolución MEN",
-    "observaciones": "29/07/2025 Se envía primer concepto de revisión"
+    "estado": "En completitud",
+    "observaciones": "29/07/2025 Se envía primer concepto de revisión\r\n- 02/02/2026 Se comparte con el programa completitud, la cual tiene fecha límite el 5 de marzo y fecha de radicación DP 23 de febrero del presente año"
   },
   {
     "programa": "Especialización en Tributaria",
@@ -1226,8 +1226,18 @@
     "procedimiento": "PAE",
     "modalidad": "Presencial",
     "responsable": "Jessica Cuervo",
-    "estado": "Pendiente SACES-MEN",
+    "estado": "En espera de PAE",
     "observaciones": "09 de junio de 2025 mediante correo \"Fwd: Envío para Trámite PAE DE MAESTRIA EN DESARROLLO RURAL\"\r\n- 27/06/2025 emisión del primer concepto de revisión.\r\n- 18/07/2025. Se realizó sesión de retroalimentación del concepto de revisión estableciendose como fecha de radicaicón el 29 de julio de 2025.\r\n- 21/11/2025. Se envio Resolución PAE hy se solicitó radición de condiciones para informar al MEN.\r\n- 15/01/2026: Se envia correo recordatorio solicitando condiciones de calidad para informar al MEN."
+  },
+  {
+    "programa": "Maestría en Desarrollo Rural",
+    "facultad": "Ciencias Agropecuarias",
+    "rrc_raa": "NA",
+    "procedimiento": "CONDICIONES DE CALIDAD",
+    "modalidad": "Presencial",
+    "responsable": "Jessica Cuervo",
+    "estado": "En fila",
+    "observaciones": "Se radicó al Departamento el 29 de enero de 2026"
   },
   {
     "programa": "Maestría en Didáctica de la Matemática",
@@ -1336,8 +1346,8 @@
     "procedimiento": "CONDICIONES DE CALIDAD",
     "modalidad": "Virtual",
     "responsable": "Jessica Cuervo",
-    "estado": "Pendiente Resolución MEN",
-    "observaciones": "04/08/2025 - Proyección correo: Solicitud al programa de las condiciones de calidad RRC (Debian radicar el 13/07/2025)\r\n28/08/2025 - Se comparte a la profe Tannia las condiciones de la calidad con las cuales se habia informado al MEN el cambio de plan de estudios. La profe comenta que están en elaboración de condiciones de calidad. \r\n18/09/2025 - El programa radica 8 de las 9 condiciones de calidad.\r\n19/09/2025 - El porgrama radica la condición 7."
+    "estado": "En completitud",
+    "observaciones": "04/08/2025 - Proyección correo: Solicitud al programa de las condiciones de calidad RRC (Debian radicar el 13/07/2025)\r\n28/08/2025 - Se comparte a la profe Tannia las condiciones de la calidad con las cuales se habia informado al MEN el cambio de plan de estudios. La profe comenta que están en elaboración de condiciones de calidad. \r\n18/09/2025 - El programa radica 8 de las 9 condiciones de calidad.\r\n19/09/2025 - El porgrama radica la condición 7.\r\n___________________________________________________________________________\r\n\r\nSe recibe completitud estableciendo como fecha de radicaciòn DP el 9 de febrero de 2026. Fecha màxima de radicaciòn MEN 17 de febrero de 2026"
   },
   {
     "programa": "Maestría en Derechos Humanos (Tunja)",
@@ -1803,7 +1813,17 @@
     "programa": "Maestría en Ambientes Educativos Mediados por TIC",
     "facultad": "Ciencias de la Educación",
     "rrc_raa": "NA",
-    "procedimiento": "MODIFICACIÓN - PAE",
+    "procedimiento": "MODIFICACIÓN ",
+    "modalidad": "Presencial a Virtual",
+    "responsable": "Jessica Cuervo",
+    "estado": "En revisión",
+    "observaciones": "23/10/2025 - Primera radicación\r\n11/12/2025 - Radicicación completa del programa "
+  },
+  {
+    "programa": "Maestría en Ambientes Educativos Mediados por TIC",
+    "facultad": "Ciencias de la Educación",
+    "rrc_raa": "NA",
+    "procedimiento": "PAE",
     "modalidad": "Presencial a Virtual",
     "responsable": "Jessica Cuervo",
     "estado": "En revisión",
